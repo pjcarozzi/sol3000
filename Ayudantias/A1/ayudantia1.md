@@ -1,5 +1,3 @@
-
-
 # Ayudantía 1 - Introducción a Stata
 
 ## Iniciar una sesión en Stata
@@ -24,7 +22,7 @@ Las ventanas _Variables_ y _Properties_ exponen la lista de variables presentes 
 
 Para mantener un registro de todas las operaciones realizadas sobre los datos, utilizaremos un _do-file_. Abrimos el _Do-file Editor_, escribiendo
 
-```stata
+```
 doedit
 ```
 
@@ -40,7 +38,7 @@ Stata tiene diversas maneras de identificar comentarios:
 2. Ingresar // en una línea
 3. Varias líneas con /* y */
 
-```stata
+```
 * Esta linea completa es un comentario
 
 derecha=comando // lo que esta a la izquierda es un comentario
@@ -54,7 +52,7 @@ Todo lo que ha sido identificado como comentario y reconocido por Stata quedara 
 
 Convencionalmente, las primeras líneas de un _do-file_ incluyen un encabezado que identifica el proyecto, nombre de archivo, la versión del programa, fecha, autor y otra información. Ingresamos esta información en el _do-file_ recién creado, pero, como no se trata de comandos, la identificamos como comentario:
 
-```stata
+```
 **************************************************
 * SOL 3000
 * AYUDANTIA 1 - DO FILE
@@ -64,8 +62,14 @@ Convencionalmente, las primeras líneas de un _do-file_ incluyen un encabezado q
 
 Una segunda convención es que la primera línea de comando identifique la versión de Stata para la cual se escribió el _do-file_. Esto permite que versiones más recientes del programa reconozcan los comandos. Si estamos usando Stata 14, escribimos:
 
-```stata
+```
 version 14
 ```
 
 Opcionalmente escribimos comandos que limpien la memoria del programa, para empezar la sesión desde cero.
+
+
+```
+clear all
+capture log close
+```
