@@ -21,7 +21,7 @@ capture log close
 markdoc "A1_1_iniciarsesion.smcl", ///
 replace statax master ///
 markup(markdown) ///
-export(html) ///
+export(md) ///
 style("stata") ///
 title("Ayudantia 1 - Introduccion a Stata") ///
 author("Pia Carozzi") ///
