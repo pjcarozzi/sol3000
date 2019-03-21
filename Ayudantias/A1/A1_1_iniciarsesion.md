@@ -17,7 +17,7 @@ Al abrir Stata, podemos reconocer cuatro ventanas básicas:
 3.  Review
 4.  Variables y Propiedades
 
-![interface](./Ayudantias/A1/img/GUI.jpg)
+![interface](./img/GUI.jpg)
 
 Stata es un programa que opera a través de comandos. Los comandos pueden ser escritos en la ventana *Command* o ejecutados desde un *do-file*.
 
@@ -33,7 +33,7 @@ Para mantener un registro de todas las operaciones realizadas sobre los datos, u
 
 en la ventana *Command* y presionando *Enter*.
 
-![doeditor](./Ayudantias/A1/img/doeditor.jpg)
+![doeditor](./img/doeditor.jpg)
 
 Con esto se abre el *do-file editor*, por ahora una ventana en blanco que muestra la pestaña *untitled.do* que identifica el archivo que acabamos de crear.
 
@@ -50,13 +50,13 @@ Stata tiene diversas maneras de identificar comentarios:
 2.  Ingresar // en una línea
 3.  Varias líneas con /\*\*\* y \*\*\*/
 
-![comments](./Ayudantias/A1/img/comments.jpg)
+![comments](./img/comments.jpg)
 
 Todo lo que ha sido identificado como comentario y reconocido por Stata quedara registrado en el *do-file* en color verde.
 
 Convencionalmente, las primeras líneas de un *do-file* incluyen un encabezado que identifica el proyecto, nombre de archivo, la versión del programa, fecha, autor y otros datos que se consideren relevantes. Por ejemplo, ingresamos la siguiente información en el *do-file* recién creado. Como no se trata de comandos, la identificamos como comentario.
 
-![header](./Ayudantias/A1/img/head.jpg)
+![header](./img/head.jpg)
 
 Otra convencion es que la primera linea de comando identifique la version de Stata para la cual se escribio el *do-file*. Esto permite que versiones mas recientes del programa reconozcan los comandos.
 
