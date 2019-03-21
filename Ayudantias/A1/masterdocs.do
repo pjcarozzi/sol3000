@@ -18,7 +18,7 @@ capture log close
 ********************************************************************************
 * Ayudantia 1
 ********************************************************************************
-markdoc "C:\Users\pjcar\Google Drive\201901 - Diseno y Analisis de la Investigacion Social\sol3000\Ayudantias\A1\A1_1_iniciarsesion.smcl", ///
+markdoc "A1_1_iniciarsesion.smcl", ///
 replace statax master ///
 markup(markdown) ///
 export(html) ///
