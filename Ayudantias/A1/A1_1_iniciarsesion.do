@@ -2,10 +2,10 @@ quietly log using A1_1_iniciarsesion, replace name(A1_1_iniciarsesion)
 
 /***
 
-1. Iniciar una sesion en Stata
-==============================
+1 - Iniciar una sesion en Stata
+===============================
 
-Al abrir Stata, podemos reconocer cuatro ventanas básicas:
+Al abrir Stata, podemos reconocer cuatro ventanas basicas:
 
 1. Resultados
 2. Command
@@ -14,18 +14,18 @@ Al abrir Stata, podemos reconocer cuatro ventanas básicas:
 
 ![interface](./Ayudantias/A1/img/GUI.jpg)
 
-Stata es un programa que opera a través de comandos. 
+Stata es un programa que opera a traves de comandos. 
 Los comandos pueden ser escritos en la ventana _Command_ o ejecutados 
 desde un _do-file_.
 
 Cuando se ejecuta un comando, los resultados aparecen en la ventana _Results_.
 
 La ventana _Review_ constituye un historial de comandos, listando todos los 
-comandos que han sido ejecutados durante la sesión en Stata.
+comandos que han sido ejecutados durante la sesion en Stata.
 
 Las ventanas _Variables_ y _Properties_ exponen la lista de variables presentes 
 en la base de datos cargada en la memoria del programa y sus propiedades. 
-Cuando no hay una base de datos cargada, estas ventanas no muestran información.
+Cuando no hay una base de datos cargada, estas ventanas no muestran informacion.
 
 Para mantener un registro de todas las operaciones realizadas sobre los datos, 
 utilizaremos un _do-file_. Abrimos el _Do-file Editor_, escribiendo
@@ -45,7 +45,7 @@ Con esto se abre el _do-file editor_, por ahora una ventana en blanco que
 muestra la pestaña _untitled.do_ que identifica el archivo que acabamos de 
 crear. 
 
-El _do-file editor_ permite editar los scripts o archivos de órdenes de Stata, 
+El _do-file editor_ permite editar los scripts o archivos de ordenes de Stata, 
 llamados _do-files_. 
 
 Usar el do-file para guardar los comandos utilizados constituye una buena 
@@ -58,26 +58,26 @@ potencialmente reproducible.
 Con ambos objetivos en mente (orden y "reproducibilidad"), se recomienda 
 organizar el codigo en secciones y realizar aclaraciones respecto a los que se 
 pretende hacer y cuales son los resultados esperados. El lenguaje de Stata 
-reconoce marcadores específicos como comentarios, es decir, como trozos de 
+reconoce marcadores especificos como comentarios, es decir, como trozos de 
 texto que no son codigo y por lo tanto no debe ser ejecutado. Insertar estos
 comentarios nos permite no solo mantener un registro ordenado y reproducible,
 sino "humanamente" comprensible.
 
 Stata tiene diversas maneras de identificar comentarios:
 
-1. Iniciar una línea con *
-2. Ingresar // en una línea
-3. Varias líneas con /*** y ***/
+1. Iniciar una linea con *
+2. Ingresar // en una linea
+3. Varias lineas con /*** y ***/
 
 ![comments](./Ayudantias/A1/img/comments.jpg)
 
 Todo lo que ha sido identificado como comentario y reconocido por Stata quedara 
 registrado en el _do-file_ en color verde.
 
-Convencionalmente, las primeras líneas de un _do-file_ incluyen un encabezado 
-que identifica el proyecto, nombre de archivo, la versión del programa, fecha, 
+Convencionalmente, las primeras lineas de un _do-file_ incluyen un encabezado 
+que identifica el proyecto, nombre de archivo, la version del programa, fecha, 
 autor y otros datos que se consideren relevantes. Por ejemplo, Ingresamos la 
-siguiente información en el _do-file_ recién  creado. 
+siguiente informacion en el _do-file_ recien  creado. 
 Como no se trata de comandos, la identificamos como comentario.
 
 ![header](./Ayudantias/A1/img/head.jpg)
@@ -155,7 +155,7 @@ dir
 /*** 
 
 La carpeta esta vacia. Guardemos en ella el _do-file_ en el que estamos trabajando.
-Esto debe hacerse a través de GUI. En la ventana del _Do-file Editor_, el
+Esto debe hacerse a traves de GUI. En la ventana del _Do-file Editor_, el
 menu desplegable _File_ contiene la opcion _Save as_. 
 
 Llamemos este archivo "ayudantia1" y cerremos el _do-file_. Volvamos a checkear

@@ -27,3 +27,23 @@ title("Ayudantia 1 - Introduccion a Stata") ///
 author("Pia Carozzi") ///
 affiliation("PUC") ///
 address("pjcarozzi@uc.cl")
+
+markdoc "A1_2_explorardb.smcl" , ///
+replace statax master ///
+markup(markdown) ///
+export(md) ///
+style("stata") ///
+title("Ayudantia 1 - Introduccion a Stata") ///
+author("Pia Carozzi") ///
+affiliation("PUC") ///
+address("pjcarozzi@uc.cl")
+
+markdoc "A1_3_qualifiers.smcl" , ///
+replace statax master ///
+markup(markdown) ///
+export(md) ///
+style("stata") ///
+title("Ayudantia 1 - Introduccion a Stata") ///
+author("Pia Carozzi") ///
+affiliation("PUC") ///
+address("pjcarozzi@uc.cl")
