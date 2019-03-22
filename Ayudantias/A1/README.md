@@ -19,3 +19,8 @@ Data (descargar antes de la ayudantia)
 --------------------------------------
 
 1. [data\_casen\_2017\_1p](https://www.dropbox.com/s/8fo5oebnzdxtoxe/data_casen_2017_1prc.dta?dl=0 "Casen 2017")
+
+Actividades adicionales 
+-----------------------
+
+1. [Ejercicios](./A1_ejercicios.md)
