@@ -1,3 +1,12 @@
+Ayudantia 1 - Introduccion a Stata
+==================================
+
+Pia Carozzi
+
+PUC
+
+*pjcarozzi\@uc.cl*
+
 2.1 - Explorar base de datos
 ============================
 
@@ -8,55 +17,50 @@ Abrimos la base de datos
 
           . use data_casen_2017_1prc.dta, clear
 
-Revisemos lo ue contiene la base:
+Revisemos lo que contiene la base:
 
           . describe
+
           Contains data from data_casen_2017_1prc.dta
-          obs:  2,164                    
-          vars: 29
-          21 Mar 2019 01:06
-          size: 502,048                          
-          +--------------------------------------------------------------------------------------------------------------------------+
-          |              storage   display    value                                                                              	|
-          |variable name   type    format     label      variable label                                                          	|
-          +--------------------------------------------------------------------------------------------------------------------------+
-          |folio           double  %10.0g                Identificacion hogar (comuna area seg viv hogar)                            |
-          |o               double  %10.0g                Orden                                                                       |
-          |id_vivienda     double  %10.0g                Identificador de la vivienda (comuna area seg viv)                          |
-          |hogar           double  %10.0g                Identificacion del hogar en la vivienda                                     |
-          |region          double  %10.0g     region     Region                                                                      |
-          |provincia       double  %10.0g     provincia		                                                                      |
-          |                                              Provincia                                                                   |
-          |comuna          double  %10.0g     comuna     Comuna                                                                      |
-          |zona            double  %10.0g     zona       Zona                                                                        |
-          |expr            double  %10.0g                Factor de Expansion Regional                                                |
-          |expc            double  %10.0g                Factor de Expansion Comunal                                                 |
-          |expr_div        double  %10.0g                Factor de expansion orientacion sexual (r23) e                              |
-          |                                                identidad de genero (r24)                                                 |
-          |varstrat        double  %10.0g                Estratos de Varianza                                                        |
-          |varunit         double  %10.0g                Conglomerados de Varianza                                                   |
-          |sexo            double  %10.0g     sexo       Sexo                                                                        |
-          |edad            double  %10.0g                Edad                                                                        |
-          |ecivil          double  %10.0g     ecivil     Estado civil                                                                |
-          |o1              double  %10.0g     o1         o1. La semana pasada, trabajo al menos una hora,                            |
-          |                                                sin considerar los quehaceres                                             |
-          |o2              double  %10.0g     o2         o2. Aunque no trabajo la semana pasada, realizo                             |
-          |                                                alguna actividad por lo menos d                                           |
-          |o3              double  %10.0g     o3         o3. Aunque no trabajo la semana pasada, tenia                               |
-          |                                                algun empleo, negocio u otra acti                                         |
-          |o6              double  %10.0g     o6         o6. Busco trabajo remunerado o realizo alguna                               |
-          |                                                gestion para iniciar una activida                                         |
-          |oficio1         double  %10.0g     oficio1    o9a_cod. Cual es su ocupacion u oficio? (1 digito)                          |
-          |ytotcorh        double  %10.0g                Ingreso total del hogar corregido                                           |
-          |ypc             double  %10.0g                Ingreso total per capita del hogar corregido                                |
-          |numper          double  %10.0g                Numero de personas en el hogar (excluye sdpa)                               |
-          |asiste          double  %10.0g     asiste     Asiste                                                                      |
-          |esc             double  %10.0g                Escolaridad                                                                 |
-          |educ            double  %10.0g     educ       Nivel Educacional                                                           |
-          |depen           double  %10.0g     depen      Dependencia Administrativa                                                  |
-          |activ           double  %10.0g     activ      Condicion de actividad                                                      |
-          +--------------------------------------------------------------------------------------------------------------------------+
-          Sorted by:
+            obs:         2,164                          
+           vars:            29                          22 Mar 2019 01:51
+           size:       502,048                          
+          ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                        storage   display    value
+          variable name   type    format     label      variable label
+          ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          folio           double  %10.0g                Identificacion hogar (comuna area seg viv hogar)
+          o               double  %10.0g                Orden
+          id_vivienda     double  %10.0g                Identificador de la vivienda (comuna area seg viv)
+          hogar           double  %10.0g                Identificacion del hogar en la vivienda
+          region          double  %10.0g     region     Region
+          provincia       double  %10.0g     provincia
+                                                        Provincia
+          comuna          double  %10.0g     comuna     Comuna
+          zona            double  %10.0g     zona       Zona
+          expr            double  %10.0g                Factor de Expansion Regional
+          expc            double  %10.0g                Factor de Expansion Comunal
+          expr_div        double  %10.0g                Factor de expansion orientacion sexual (r23) e identidad de genero (r24)
+          varstrat        double  %10.0g                Estratos de Varianza
+          varunit         double  %10.0g                Conglomerados de Varianza
+          sexo            double  %10.0g     sexo       Sexo
+          edad            double  %10.0g                Edad
+          ecivil          double  %10.0g     ecivil     Estado civil
+          o1              double  %19.0g     DICO       o1. La semana pasada, trabajo al menos una hora, sin considerar los quehaceres
+          o2              double  %19.0g     DICO       o2. Aunque no trabajo la semana pasada, realizo alguna actividad por lo menos d
+          o3              double  %19.0g     DICO       o3. Aunque no trabajo la semana pasada, tenia algun empleo, negocio u otra acti
+          o6              double  %19.0g     DICO       o6. Busco trabajo remunerado o realizo alguna gestion para iniciar una activida
+          oficio1         double  %10.0g     oficio1    o9a_cod. Cual es su ocupacion u oficio? (1 digito)
+          ytotcorh        double  %10.0g                Ingreso total del hogar corregido
+          ypc             double  %10.0g                Ingreso total per capita del hogar corregido
+          numper          double  %10.0g                Numero de personas en el hogar (excluye sdpa)
+          asiste          double  %10.0g     asiste     Asiste
+          esc             double  %10.0g                Escolaridad
+          educ            double  %10.0g     educ       Nivel Educacional
+          depen           double  %10.0g     depen      Dependencia Administrativa
+          activ           double  %10.0g     activ      Condicion de actividad
+          ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          Sorted by: esc
 
 El output de [describe](http://www.stata.com/manuals13/ddescribe.pdf#ddescribe) nos muestra el nombre del archivo, cuantas observaciones tiene (2164), cuantas variables tiene (29) y el tamaño del archivo en bytes. Mas abajo, detalla el nombre de las variables y las etiquetas de cada variable - que describen la informacion que contienen -, el nombre del grupo de etiquetas de valores (atributos) que cada una usa si ha sido declarado, su tipo de almacenamiento y el formato con el cual se muestran.
 
@@ -117,7 +121,7 @@ Supongamos que queremos obtener informacion acerca de test de heteroscedasticida
 
 Ejecutado el comando, aparece la ventana *Viewer* con los resultados de la busqueda, identificando sus fuentes.
 
-![search](./Ayudantias/A1/img/search.jpg)
+![search](./img/search.jpg)
 
 [help](http://www.stata.com/manuals13/u4.pdf#u4Statashelpandsearchfacilities) seguido por el nombre de un comando entrega los archivos de ayuda asociados a dicho comando. [help](http://www.stata.com/manuals13/u4.pdf#u4Statashelpandsearchfacilities) es, por lejos, el comando mas util para aprender a usar Stata.
 
@@ -127,7 +131,7 @@ Localicemos informacion de uno de los comandos que ya han utilizado en clase:
 
 Nuevamente, se abrira ventana *Viewer*.
 
-![help](./Ayudantias/A1/img/help.jpg)
+![help](./img/help.jpg)
 
 El primer vinculo bajo el titulo, que aparece precedido por una \[R\], enlaza la entrada correspondiente a [summarize](http://www.stata.com/manuals13/rsummarize.pdf#rsummarize) en el *Stata Base Reference Manual*. Si hacemos click, accedemos esta documentacion, en formato *pdf*, guardada en los archivos locales del programa.
 
@@ -212,5 +216,3 @@ La media de escolaridad en la muestra es 10,9 años. Tambien podemos obtener mas
           99%           19             22       Kurtosis       2.936748
 
 Nos muestra adicionalmente los percentiles, la varianza, asimetria y curtosis.
-
-          . quietly log close A1_2_explorardb

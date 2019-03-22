@@ -33,7 +33,7 @@ log using logayudantia1, append name(ayudantia)         // Crear log file
 * Sigamos *
 
 ********************************************************************************
-* 2 - Explorar base de datos. Sintaxis, comandos y qualifiers
+* 2 - Explorar base de datos. Sintaxis y comandos.
 ********************************************************************************
 
 * Descargar base de datos y guardar en la carpeta de trabajo
@@ -63,6 +63,9 @@ summarize
 summarize esc
 summarize esc, d
 
+********************************************************************************
+* 3 - Qualifiers
+********************************************************************************
 * in
 summarize esc in f/100
 
@@ -83,5 +86,11 @@ bysort sexo: summarize esc
 bysort zona: summarize esc if edad>=45 & sexo==2
 
 ********************************************************************************
-* 3 - Variables y recodificacion
+* 4 - Variables y recodificacion
 ********************************************************************************
+
+describe
+
+codebook oficio1
+
+

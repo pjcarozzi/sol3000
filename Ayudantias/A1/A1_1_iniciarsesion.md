@@ -17,7 +17,7 @@ Al abrir Stata, podemos reconocer cuatro ventanas basicas:
 3.  Review
 4.  Variables y Propiedades
 
-![interface](./Ayudantias/A1/img/GUI.jpg)
+![interface](./img/GUI.jpg)
 
 Stata es un programa que opera a traves de comandos. Los comandos pueden ser escritos en la ventana *Command* o ejecutados desde un *do-file*.
 
@@ -33,7 +33,7 @@ Para mantener un registro de todas las operaciones realizadas sobre los datos, u
 
 en la ventana *Command* y presionando *Enter*.
 
-![doeditor](./Ayudantias/A1/img/doeditor.jpg)
+![doeditor](./img/doeditor.jpg)
 
 Con esto se abre el *do-file editor*, por ahora una ventana en blanco que muestra la pestaña *untitled.do* que identifica el archivo que acabamos de crear.
 
@@ -50,13 +50,13 @@ Stata tiene diversas maneras de identificar comentarios:
 2.  Ingresar // en una linea
 3.  Varias lineas con /\*\*\* y \*\*\*/
 
-![comments](./Ayudantias/A1/img/comments.jpg)
+![comments](./img/comments.jpg)
 
 Todo lo que ha sido identificado como comentario y reconocido por Stata quedara registrado en el *do-file* en color verde.
 
 Convencionalmente, las primeras lineas de un *do-file* incluyen un encabezado que identifica el proyecto, nombre de archivo, la version del programa, fecha, autor y otros datos que se consideren relevantes. Por ejemplo, ingresamos la siguiente informacion en el *do-file* recien creado. Como no se trata de comandos, la identificamos como comentario.
 
-![header](./Ayudantias/A1/img/head.jpg)
+![header](./img/head.jpg)
 
 Otra convencion es que la primera linea de comando identifique la version de Stata para la cual se escribio el *do-file*. Esto permite que versiones mas recientes del programa reconozcan los comandos.
 
@@ -132,5 +132,3 @@ Los *log files* se guardan automaticamente bajo la extension *.smcl*, pero tambi
             log type:  smcl
            closed on:  20 Mar 2019, 23:22:44
           ------------------------------------------------------------------------------------------------------------------------------------------------
-
-          . quietly log close A1_1_iniciarsesion

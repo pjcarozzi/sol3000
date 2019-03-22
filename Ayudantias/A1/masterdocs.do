@@ -18,7 +18,7 @@ capture log close
 ********************************************************************************
 * Ayudantia 1
 ********************************************************************************
-markdoc "A1_1_iniciarsesion.smcl", ///
+markdoc "./output/A1_1_iniciarsesion.smcl", ///
 replace statax master ///
 markup(markdown) ///
 export(md) ///
@@ -28,7 +28,7 @@ author("Pia Carozzi") ///
 affiliation("PUC") ///
 address("pjcarozzi@uc.cl")
 
-markdoc "A1_2_explorardb.smcl" , ///
+markdoc "./output/A1_2_explorardb.smcl" , ///
 replace statax master ///
 markup(markdown) ///
 export(md) ///
@@ -38,7 +38,17 @@ author("Pia Carozzi") ///
 affiliation("PUC") ///
 address("pjcarozzi@uc.cl")
 
-markdoc "A1_3_qualifiers.smcl" , ///
+markdoc "./output/A1_3_qualifiers.smcl" , ///
+replace statax master ///
+markup(markdown) ///
+export(md) ///
+style("stata") ///
+title("Ayudantia 1 - Introduccion a Stata") ///
+author("Pia Carozzi") ///
+affiliation("PUC") ///
+address("pjcarozzi@uc.cl")
+
+markdoc "./output/A1_4_recod.smcl" , ///
 replace statax master ///
 markup(markdown) ///
 export(md) ///

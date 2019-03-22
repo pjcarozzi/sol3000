@@ -1,3 +1,12 @@
+Ayudantia 1 - Introduccion a Stata
+==================================
+
+Pia Carozzi
+
+PUC
+
+*pjcarozzi\@uc.cl*
+
 3 - Qualifiers y by
 ===================
 
@@ -173,5 +182,3 @@ Obtengamos la media de escolaridad por zona de residencia (urbana o rural) para 
                    esc |         85    6.976471    4.011817          0         17
 
 En esta muestra, las mujeres de 45 años o mas que viven en una zona urbana tienen en promedio 9. años de escolaridad, mientras que las mujeres de 45 años o mas que viven en una zona rural tienen en promedio 6.8 años de escolaridad.
-
-          . quietly log close A1_3_qualifiers

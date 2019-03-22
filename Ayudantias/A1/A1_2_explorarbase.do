@@ -93,7 +93,7 @@ search heteroskedasticity test
 Ejecutado el comando, aparece la ventana _Viewer_ con los resultados de la
 busqueda, identificando sus fuentes.
 
-![search](./Ayudantias/A1/img/search.jpg)
+![search](./img/search.jpg)
 
 [help](http://www.stata.com/manuals13/u4.pdf#u4Statashelpandsearchfacilities)
 seguido por el nombre de un comando entrega los archivos de ayuda asociados 
@@ -109,7 +109,7 @@ help summarize
 /***
 Nuevamente, se abrira ventana _Viewer_. 
 
-![help](./Ayudantias/A1/img/help.jpg)
+![help](./img/help.jpg)
 
 El primer vinculo bajo el titulo, que aparece precedido por una [R], enlaza
 la entrada correspondiente a [summarize](http://www.stata.com/manuals13/rsummarize.pdf#rsummarize)
