@@ -8,7 +8,7 @@ Utilizando la base de datos base de datos [issp2012cl][datos1]:
 4. Usando las variables *tedad* y *rq1b*, cree una tabla de contingencia y obtenga gamma. Calcule un intervalo de confianza, realice un test de significancia, paso a paso, y concluya sustantivamente.
 5. Replique siguiente tabla 8.15, obtenida del texto de Finlay y Agresti. Use tablas interactivas y obtenga porcentajes que exploren la asociación entre ambas variables, chi2 y gamma. Interprete. 
 
-![fa815](img\finlayagresti8_15.png)
+![fa815](img/finlayagresti8_15.png)
 
 Fuente: Finlay y Agresti, 2014
 6. Desarrolle un test F comparando las medias de *htrab* por *educ*. Describa la tabla ANOVA, $F$ y $valor\,p$. Interprete sustantivamente.
