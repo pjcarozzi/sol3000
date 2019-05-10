@@ -10,8 +10,8 @@ PUC
 2.1 - Explorar base de datos
 ============================
 
-Descargamos la base de datos [data\_casen\_2017\_1p](http://example.com/ "Datos 1"), desde el
-[Dropbox](http://example.com/ "Dropbox SOL3000") del curso, y la guardamos en la carpeta de trabajo declarada para esta sesion. La base contiene una muestra aleatoria de 1% de [Casen 2017](http://observatorio.ministeriodesarrollosocial.gob.cl/casen-multidimensional/casen/casen_2017.php "Fuente") y una seleccion de variables.
+Descargamos la base de datos [data\_casen\_2017\_1p](https://www.dropbox.com/s/8fo5oebnzdxtoxe/data_casen_2017_1prc.dta?dl=0 "Datos 1"), desde el
+[Dropbox](https://www.dropbox.com/sh/rkbnynhy2feqj4v/AADzQ3R7w0JULMbkXJbO5GVUa?dl=0 "Dropbox SOL3000") del curso, y la guardamos en la carpeta de trabajo declarada para esta sesion. La base contiene una muestra aleatoria de 1% de [Casen 2017](http://observatorio.ministeriodesarrollosocial.gob.cl/casen-multidimensional/casen/casen_2017.php "Fuente") y una seleccion de variables.
 
 Abrimos la base de datos
 
